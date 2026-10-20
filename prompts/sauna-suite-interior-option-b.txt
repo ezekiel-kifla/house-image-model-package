@@ -10,7 +10,7 @@ Reference 2, active camera and compatible-geometry render:
 https://ezekiel-kifla.github.io/house-image-model-package/images/renders/sauna-suite-interior.jpg
 
 Reference package page:
-https://ezekiel-kifla.github.io/house-image-model-package/#prompt=sauna-suite-interior-option-b
+https://ezekiel-kifla.github.io/house-image-model-package/?prompt=sauna-suite-interior-option-b
 
 If you cannot actually open both direct image URLs as visual references, do not guess and do not generate an image. Reply only with:
 REFERENCE_URL_INPUT_NOT_SUPPORTED

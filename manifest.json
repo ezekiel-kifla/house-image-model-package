@@ -1,0 +1,490 @@
+{
+  "title": "House image-model reference and prompt package",
+  "version": 1,
+  "generated_at": "2026-10-20T16:42:48.736981+00:00",
+  "public_base_url": "https://ezekiel-kifla.github.io/house-image-model-package",
+  "public_gallery_url": "https://ezekiel-kifla.github.io/house-image-model-package/",
+  "rooms": [
+    {
+      "id": "master-bathroom",
+      "label": "Master bathroom",
+      "plan_crop": "images/plans/master-bathroom-plan.png",
+      "views": [
+        {
+          "id": "primary",
+          "label": "Primary overview",
+          "render": "images/renders/master-bathroom-primary.jpg"
+        },
+        {
+          "id": "detail",
+          "label": "Shower detail",
+          "render": "images/renders/master-bathroom-detail.jpg"
+        },
+        {
+          "id": "doorway",
+          "label": "Doorway overview",
+          "render": "images/renders/master-bathroom-doorway.jpg"
+        }
+      ]
+    },
+    {
+      "id": "shared-wc",
+      "label": "Shared WC",
+      "plan_crop": "images/plans/shared-wc-plan.png",
+      "views": [
+        {
+          "id": "primary",
+          "label": "Vanity overview",
+          "render": "images/renders/shared-wc-primary.jpg"
+        },
+        {
+          "id": "reverse",
+          "label": "WC and service wall",
+          "render": "images/renders/shared-wc-reverse.jpg"
+        },
+        {
+          "id": "basin-detail",
+          "label": "Basin detail",
+          "render": "images/renders/shared-wc-basin-detail.jpg"
+        }
+      ]
+    },
+    {
+      "id": "sauna-suite",
+      "label": "Sauna suite",
+      "plan_crop": "images/plans/sauna-suite-plan.png",
+      "views": [
+        {
+          "id": "primary",
+          "label": "Washroom to sauna",
+          "render": "images/renders/sauna-suite-primary.jpg"
+        },
+        {
+          "id": "interior",
+          "label": "Inside hot room",
+          "render": "images/renders/sauna-suite-interior.jpg"
+        },
+        {
+          "id": "doorway",
+          "label": "Doorway whole-suite view",
+          "render": "images/renders/sauna-suite-doorway.jpg"
+        }
+      ]
+    },
+    {
+      "id": "master-bedroom",
+      "label": "Master bedroom and gallery",
+      "plan_crop": "images/plans/master-bedroom-plan.png",
+      "views": [
+        {
+          "id": "primary",
+          "label": "Bed and W7",
+          "render": "images/renders/master-bedroom-primary.jpg"
+        },
+        {
+          "id": "gallery",
+          "label": "Dressing gallery",
+          "render": "images/renders/master-bedroom-gallery.jpg"
+        }
+      ]
+    },
+    {
+      "id": "entrance-hall",
+      "label": "Entrance and hall",
+      "plan_crop": "images/plans/entrance-hall-plan.png",
+      "views": [
+        {
+          "id": "entrance",
+          "label": "Entrance toward D1",
+          "render": "images/renders/entrance-primary.jpg"
+        },
+        {
+          "id": "hall",
+          "label": "Long hall",
+          "render": "images/renders/hall-primary.jpg"
+        }
+      ]
+    },
+    {
+      "id": "living-room",
+      "label": "Living, kitchen and dining",
+      "plan_crop": "images/plans/living-room-plan.png",
+      "views": [
+        {
+          "id": "primary",
+          "label": "Living wide",
+          "render": "images/renders/living-primary.jpg"
+        },
+        {
+          "id": "reverse",
+          "label": "Living reverse",
+          "render": "images/renders/living-reverse.jpg"
+        }
+      ]
+    }
+  ],
+  "prompt_count": 45,
+  "view_count": 15,
+  "option_count_per_view": 3,
+  "url_only_compatibility": "Requires an image model session that can open public image URLs. If unsupported, each prompt tells the model to stop rather than guess.",
+  "privacy": "The address and full plan are omitted. Public room crops expose exact internal dimensions, opening IDs/swings, fixtures, service zones, and some adjacent spaces. Offers and Blender source are not included.",
+  "geometry_authority": "Explicit owner-confirmed corrections, then current plan crop, then compatible geometry and camera intent from older render.",
+  "assets": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1352,
+      "sha256": "6a4bd5bc7219939f0e9990a51d95b26ceb30dd28e0a8fbc0454697643eeb1190"
+    },
+    {
+      "path": "images/plans/entrance-hall-plan.png",
+      "bytes": 196404,
+      "sha256": "21bd2fd21f81349b14ae8ee8341d81ecbc6cc196291f4c789755215e1f6651d4"
+    },
+    {
+      "path": "images/plans/living-room-plan.png",
+      "bytes": 119329,
+      "sha256": "e3b61830a659138eb769a566020d1c72ce48898406422053d01d6fa61414203d"
+    },
+    {
+      "path": "images/plans/master-bathroom-plan.png",
+      "bytes": 325467,
+      "sha256": "8298ca32a556bd7bb0eaf89b70e262bec5786193dc8b792c1a9172a11a6337a6"
+    },
+    {
+      "path": "images/plans/master-bedroom-plan.png",
+      "bytes": 218503,
+      "sha256": "74e1cc0226dd87303505847feccc908cf206a9a683a92f0e4e19dbad7cbc6086"
+    },
+    {
+      "path": "images/plans/sauna-suite-plan.png",
+      "bytes": 394043,
+      "sha256": "b0cdd1e85429b0e5a33834d71f813dd4e7eb40a98388745459c737f3335d8b63"
+    },
+    {
+      "path": "images/plans/shared-wc-plan.png",
+      "bytes": 197389,
+      "sha256": "0142072b7f807ce773bb5264693566ea766ae302a9ac8503f48065cbb3f39eee"
+    },
+    {
+      "path": "images/renders/entrance-primary.jpg",
+      "bytes": 136277,
+      "sha256": "79215f663586027331da4d665d7fda79d3d67ac2f23d50577604138779fb2c75"
+    },
+    {
+      "path": "images/renders/hall-primary.jpg",
+      "bytes": 112175,
+      "sha256": "b9a18d8a4196b2146859f8c8dad33ec0ef45b789aa4ca5c7ee6f3f70addca5f4"
+    },
+    {
+      "path": "images/renders/living-primary.jpg",
+      "bytes": 182364,
+      "sha256": "4f7ffd18913d28ea862659fb88564045b78d0ef6f401013e818f4850d4a9ff6e"
+    },
+    {
+      "path": "images/renders/living-reverse.jpg",
+      "bytes": 202815,
+      "sha256": "a47fd31b2f175de48b0bd1c3bd1a99011c870f002fa2f4802d77eceaca7166dc"
+    },
+    {
+      "path": "images/renders/master-bathroom-detail.jpg",
+      "bytes": 198415,
+      "sha256": "3e17fb1fc019b593793f2206edb599f0fba625e70ece62a7e076fc6710dc04b9"
+    },
+    {
+      "path": "images/renders/master-bathroom-doorway.jpg",
+      "bytes": 123844,
+      "sha256": "7136a4ac8d6686678fc632238caa7ab9e75f5030cf2c2c4759bb204bec8a175d"
+    },
+    {
+      "path": "images/renders/master-bathroom-primary.jpg",
+      "bytes": 225863,
+      "sha256": "b09e71dfd40dce39e146ce844357270a6b606076df1cdb1725f47dbf8a2c5428"
+    },
+    {
+      "path": "images/renders/master-bedroom-gallery.jpg",
+      "bytes": 109553,
+      "sha256": "32405f7765d6a4dba1aeb82d9286567d9372446f587268f963959b217f627b8c"
+    },
+    {
+      "path": "images/renders/master-bedroom-primary.jpg",
+      "bytes": 190198,
+      "sha256": "e1fd2423018ac8af305d50d2ad610c5252edb20e83481c6d4008786d2eeacbf2"
+    },
+    {
+      "path": "images/renders/sauna-suite-doorway.jpg",
+      "bytes": 236839,
+      "sha256": "62bea9d6263dda1d99897ff246aaa8e76636ed235c396ea07222ba376657fc43"
+    },
+    {
+      "path": "images/renders/sauna-suite-interior.jpg",
+      "bytes": 169612,
+      "sha256": "4a10546fce1a88eaafe12f7cf7f61574f69dbd71040bc90a187813acb96f2941"
+    },
+    {
+      "path": "images/renders/sauna-suite-primary.jpg",
+      "bytes": 185825,
+      "sha256": "f7815062f9a74553440aa03d3a34246e94d3fecebb4838abc8dfcef6db5deaec"
+    },
+    {
+      "path": "images/renders/shared-wc-basin-detail.jpg",
+      "bytes": 247017,
+      "sha256": "ac686d0eeb1f2cf1cacdd95005aaf3820c50930063db0ed0f5c9231594cf8a57"
+    },
+    {
+      "path": "images/renders/shared-wc-primary.jpg",
+      "bytes": 173960,
+      "sha256": "83bc8398423b72eed4769d7bdaf139f0f5a2601cf385adbf43ad47bac1ed90ae"
+    },
+    {
+      "path": "images/renders/shared-wc-reverse.jpg",
+      "bytes": 186229,
+      "sha256": "cd86ce2912afebed1d4fba5a5bc13e66b1bdcf9e41639da556dbd8b231381d97"
+    },
+    {
+      "path": "index.html",
+      "bytes": 11178,
+      "sha256": "25429ed4fa5b024c289aa6778da40dcf2cb668b8e746c746e063214af6dcf9ab"
+    },
+    {
+      "path": "prompts/entrance-hall-entrance-option-a.txt",
+      "bytes": 7058,
+      "sha256": "80e1a7a0cbbbdb884f4e3f85b4816e2faa7472f42138c9f592c3df69fdae91c9"
+    },
+    {
+      "path": "prompts/entrance-hall-entrance-option-b.txt",
+      "bytes": 6980,
+      "sha256": "d9a8b86d5f8e35fbecaa86915190b102ae9458b2f4cb5be457f67e6a158a74c7"
+    },
+    {
+      "path": "prompts/entrance-hall-entrance-option-c.txt",
+      "bytes": 7011,
+      "sha256": "f71495d2d0e36923059c9da5641a96adb418a103aad6c6adc8f700ef116a4344"
+    },
+    {
+      "path": "prompts/entrance-hall-hall-option-a.txt",
+      "bytes": 6971,
+      "sha256": "8113ce87a9e3c270d2517c98eec0ac9296404400d3d9222e9da534d1be1b7896"
+    },
+    {
+      "path": "prompts/entrance-hall-hall-option-b.txt",
+      "bytes": 6893,
+      "sha256": "f718d446adec4d803ab217ee06b63d73e1745a444359302766c7550114880cb9"
+    },
+    {
+      "path": "prompts/entrance-hall-hall-option-c.txt",
+      "bytes": 6924,
+      "sha256": "3b767e6cf8fafa075f52ec95d39f95491dcb58ebb2acc2e8b122e99868232cb5"
+    },
+    {
+      "path": "prompts/living-room-primary-option-a.txt",
+      "bytes": 7356,
+      "sha256": "95a193a9d9697a89b8155bd5e4192030f7e43f28549d420f88ca0c559ea20451"
+    },
+    {
+      "path": "prompts/living-room-primary-option-b.txt",
+      "bytes": 7190,
+      "sha256": "8815312f9deaa4573fe1bb8dde7bc89075d883171e7872dd2671de9d74ce848e"
+    },
+    {
+      "path": "prompts/living-room-primary-option-c.txt",
+      "bytes": 7158,
+      "sha256": "2baca540170d30d68f5b9f15b4ae8824f1345d75b4d9be5006823412c58df133"
+    },
+    {
+      "path": "prompts/living-room-reverse-option-a.txt",
+      "bytes": 7230,
+      "sha256": "36fab51ef2205afe16d5f4e09df1bfd0ae0716d7d7e8cbe6d64f1289a8477c79"
+    },
+    {
+      "path": "prompts/living-room-reverse-option-b.txt",
+      "bytes": 7064,
+      "sha256": "7a091342ff1e52c73e0bd964f643651a39637948df6c4277328b416a0ac556f3"
+    },
+    {
+      "path": "prompts/living-room-reverse-option-c.txt",
+      "bytes": 7032,
+      "sha256": "d96cdfb59513938f42c65806b5fc9444d956a30fe9fbae9b698910f93007d114"
+    },
+    {
+      "path": "prompts/master-bathroom-detail-option-a.txt",
+      "bytes": 6891,
+      "sha256": "84196ce65baa6910564b8370f3e460959b3ffb1dbf12f1a500eb0d7a0b77a675"
+    },
+    {
+      "path": "prompts/master-bathroom-detail-option-b.txt",
+      "bytes": 6771,
+      "sha256": "51e264cd0312469243b930f6e4e8fdb9462fc616888aea208b7f3eef6bf8f3d3"
+    },
+    {
+      "path": "prompts/master-bathroom-detail-option-c.txt",
+      "bytes": 6687,
+      "sha256": "b0e487c4e48e2cb78ac2189688d9ec746f72db96598cf363827ae9c22089dd54"
+    },
+    {
+      "path": "prompts/master-bathroom-doorway-option-a.txt",
+      "bytes": 6856,
+      "sha256": "8e845d7285bc4b58c0978157120ba2a746e4c6d4c5e8be9d26b9f4cb44200efd"
+    },
+    {
+      "path": "prompts/master-bathroom-doorway-option-b.txt",
+      "bytes": 6736,
+      "sha256": "dda1355dd222f6c368abbcfb730a299f287498203c01bc64ced8a49e86a11324"
+    },
+    {
+      "path": "prompts/master-bathroom-doorway-option-c.txt",
+      "bytes": 6652,
+      "sha256": "a6c20e6249f9cf058e42c1dbe5e5c57fa9688cb3b7e321acd434053b9749606c"
+    },
+    {
+      "path": "prompts/master-bathroom-primary-option-a.txt",
+      "bytes": 6917,
+      "sha256": "b81acf248cf4126d942c67bc4ec5ffc67350d21c64ed6dc75bba71c79a73f046"
+    },
+    {
+      "path": "prompts/master-bathroom-primary-option-b.txt",
+      "bytes": 6797,
+      "sha256": "45b33a82127e03fbf5e60cfb17c2a6355161605d889eb0251b3bb2ada47edb38"
+    },
+    {
+      "path": "prompts/master-bathroom-primary-option-c.txt",
+      "bytes": 6713,
+      "sha256": "b7d798cc8d02b7b697f2295310a6c32d0decb2314f7002df04fcb494669e19c3"
+    },
+    {
+      "path": "prompts/master-bedroom-gallery-option-a.txt",
+      "bytes": 6969,
+      "sha256": "0d36fd9c0ef9a9a6cab73a1779645df2ef196de900cf4b2b139c11d863fd90d1"
+    },
+    {
+      "path": "prompts/master-bedroom-gallery-option-b.txt",
+      "bytes": 6869,
+      "sha256": "56e7ae39dc184666dc3fad93ca37c0ddf1bbab513a5125912760438096647ba4"
+    },
+    {
+      "path": "prompts/master-bedroom-gallery-option-c.txt",
+      "bytes": 6858,
+      "sha256": "b8e84bde750f0cb84f8b1e9cdeed984930ba170ef5247de814d13a548c738766"
+    },
+    {
+      "path": "prompts/master-bedroom-primary-option-a.txt",
+      "bytes": 6829,
+      "sha256": "94a24d1f85cf2517e1e54070735d0556616bcee092e2b6672c50fa5541b4b9cb"
+    },
+    {
+      "path": "prompts/master-bedroom-primary-option-b.txt",
+      "bytes": 6729,
+      "sha256": "9a842e57b7ba0b3291de939731c0867d4545a96c0824645e14fa20223bef1abe"
+    },
+    {
+      "path": "prompts/master-bedroom-primary-option-c.txt",
+      "bytes": 6718,
+      "sha256": "5961b79b34dd786946280e8690bea7b6863cc69e5235ff9cd4df219971102175"
+    },
+    {
+      "path": "prompts/sauna-suite-doorway-option-a.txt",
+      "bytes": 7221,
+      "sha256": "ebe266c3c1e628daf0dda4bd837bc4192b11cfd6ac3a654b5a11bc4ac3b6f296"
+    },
+    {
+      "path": "prompts/sauna-suite-doorway-option-b.txt",
+      "bytes": 7320,
+      "sha256": "ec3a7bee2d2e0f6cca14039548ddfed3586da1bb4e8980d66bd0cb2f8d48554c"
+    },
+    {
+      "path": "prompts/sauna-suite-doorway-option-c.txt",
+      "bytes": 7260,
+      "sha256": "78a9a549273ed9a9496b39eaceeabf80996dc2fc414089a9c8ccde4ddfbaef1d"
+    },
+    {
+      "path": "prompts/sauna-suite-interior-option-a.txt",
+      "bytes": 7166,
+      "sha256": "cb918e2ffe7fc5e61e65cab5456f9ba74cfd62126c141eb56c6461efb748623a"
+    },
+    {
+      "path": "prompts/sauna-suite-interior-option-b.txt",
+      "bytes": 7265,
+      "sha256": "3c62a7364bad4060b9b8bb5afc7a498bd136b858a2bf5812bdb5ffec85c95729"
+    },
+    {
+      "path": "prompts/sauna-suite-interior-option-c.txt",
+      "bytes": 7205,
+      "sha256": "1f5a4e7abe9e68ad6d76942071966383b70d5c304e6db711d38f2e4e640416c2"
+    },
+    {
+      "path": "prompts/sauna-suite-primary-option-a.txt",
+      "bytes": 7351,
+      "sha256": "37660eb40506838a6f893fef0fec39a08d73712013d8bb0b59e49d2f241733fe"
+    },
+    {
+      "path": "prompts/sauna-suite-primary-option-b.txt",
+      "bytes": 7450,
+      "sha256": "a6eb0428dac095c8d23153a880e6ba3f9e523a86aea7c23ba7f5f3ddb0adc921"
+    },
+    {
+      "path": "prompts/sauna-suite-primary-option-c.txt",
+      "bytes": 7390,
+      "sha256": "f7cd1e2b16023413aa721a24695b8a4018ad4e55f205e3ae8f686b7c3ee084f4"
+    },
+    {
+      "path": "prompts/shared-wc-basin-detail-option-a.txt",
+      "bytes": 6427,
+      "sha256": "82ef00d8220a092df79ac83ae3de213ba05551b99f3b662fca3c7916e3cb1c8b"
+    },
+    {
+      "path": "prompts/shared-wc-basin-detail-option-b.txt",
+      "bytes": 6346,
+      "sha256": "995b58f2d65fa9bf7d7b9244e6a7edc33ba2e60ce13057dea0ba76c1fea74d15"
+    },
+    {
+      "path": "prompts/shared-wc-basin-detail-option-c.txt",
+      "bytes": 6418,
+      "sha256": "353dde824b47daf56409866551e02e084bbc8b2f1e3087f6e57bd8c7cbe70334"
+    },
+    {
+      "path": "prompts/shared-wc-primary-option-a.txt",
+      "bytes": 6662,
+      "sha256": "9d7c7b98fff2d3a8f4f1c0f669939ca08663ef2624444fb15b6f49a0dfa315a2"
+    },
+    {
+      "path": "prompts/shared-wc-primary-option-b.txt",
+      "bytes": 6581,
+      "sha256": "409476b649bfe42ebdee69c7e64344ce4a3934917b515fbed0c2bcf3b26e66ed"
+    },
+    {
+      "path": "prompts/shared-wc-primary-option-c.txt",
+      "bytes": 6653,
+      "sha256": "5b2e150919a6b39002c43647c03b17a3ecaeda69190e9c94f43b0da48a459b2b"
+    },
+    {
+      "path": "prompts/shared-wc-reverse-option-a.txt",
+      "bytes": 6477,
+      "sha256": "1514bb9c8625693b27aa5209155bd62f0d050224e088f55683e6f3c7991d06b7"
+    },
+    {
+      "path": "prompts/shared-wc-reverse-option-b.txt",
+      "bytes": 6396,
+      "sha256": "02923ef42e418105cfa3e148e7a3f44482ff32a449741f0cb72133fde52a050d"
+    },
+    {
+      "path": "prompts/shared-wc-reverse-option-c.txt",
+      "bytes": 6468,
+      "sha256": "d3344cd9ccfdd2e0ea18352495ae88bfd01161beca31c5fa7abbba4dae6e6d6a"
+    },
+    {
+      "path": "prompts.json",
+      "bytes": 331127,
+      "sha256": "5286fe0d67461233cb017eebb79ca5226709d3beb5ccffe04ea09273f6dfc50d"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 171,
+      "sha256": "cf0e4783521d9af38788f78a0f64bdd92ede6c35a9e4f09807ce5fd68837cf24"
+    }
+  ],
+  "hosting": "GitHub Pages over HTTPS"
+}

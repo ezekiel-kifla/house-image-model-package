@@ -1,0 +1,39 @@
+HOUSE INTERIOR IMAGE GENERATION: Shared WC | WC and service wall | Option C
+
+REFERENCE ACCESS REQUIREMENT
+Before generating, use your URL or browsing capability to open and visually inspect both public image files below. Treat them as image inputs, not as text-only links.
+
+Reference 1, binding room plan crop:
+https://ezekiel-kifla.github.io/house-image-model-package/images/plans/shared-wc-plan.png
+
+Reference 2, active camera and compatible-geometry render:
+https://ezekiel-kifla.github.io/house-image-model-package/images/renders/shared-wc-reverse.jpg
+
+Reference package page:
+https://ezekiel-kifla.github.io/house-image-model-package/#prompt=shared-wc-reverse-option-c
+
+If you cannot actually open both direct image URLs as visual references, do not guess and do not generate an image. Reply only with:
+REFERENCE_URL_INPUT_NOT_SUPPORTED
+
+GEOMETRY AUTHORITY
+Explicit owner-confirmed corrections in the geometry block below take first priority. The binding plan crop is second. The older Blender render controls only camera direction, framing intent, scale, and geometry that agrees with those higher authorities. Do not lock in stale render geometry. Do not move protected architectural edges to make the result prettier.
+
+GLOBAL GENERATION LOCK
+Create one photorealistic, architecturally plausible interior-design concept image for the real single-storey house in the public reference images loaded above. Reference 1, the current floor plan, is binding for room topology, wall positions, room proportions, doors, door swings, windows, glazing divisions, fixed plumbing zones and circulation, except for any explicit owner-confirmed override in the pasted “Geometry that must remain” block. The active room render named in the chosen view block, Reference 2, is binding for camera direction, framing intent, opening placement and believable scale, except where it conflicts with that geometry hierarchy. Do not change what is in front of or behind the camera merely to fit more objects. Restyle only finishes, cabinetry faces within their existing envelopes, furniture form within the existing furniture envelopes, textiles, lighting fixtures and restrained loose decor. Do not redesign, enlarge, mirror or “improve” the architecture.
+
+Use a calm high-end Nordic contemporary language suited to an Estonian house: warm and tactile, architectural, low-maintenance, quiet rather than showy, and domestic rather than hotel-like. Keep the flat main-ceiling proportions based on the approximately 3.17 m model datum and the hot-sauna ceiling proportions based on the approximately 2.30 m model datum where applicable; these are visual-model datums, not surveyed clear heights. Use honest low-sheen wood, mineral and textile surfaces with realistic joints, edges and thickness. Show neutral overcast daylight plus plausible dimmable 3000 K interior light; sauna light may be 2700-3000 K. Keep white balance neutral, never orange. Render one 4:3 image matching the camera direction, framing and natural cropping of the active room reference named in the chosen view block. Keep the active reference’s believable eye level and field of view. Correct verticals and control edge stretching where possible, but never widen the architecture or pull off-camera objects into view. Keep realistic exposure, material texture and soft shadows, with no fisheye or cinematic colour cast.
+
+GEOMETRY THAT MUST REMAIN
+Preserve the exact compact current-plan wet-floor zone, 1590 × 1678 mm / 2.67 m², north of the hall. Keep the 900 mm D6 door in its drawn inward swing, the full-wall 1590 mm vanity and mirror on the north wall, and the wall-hung WC on the east side within its labelled 1200 × 800 mm zone. This is an internal room with no exterior window. Do not add a shower, bathtub, bidet, freestanding storage, new opening or moved WC. Preserve the concealed service wall and access.
+
+ACTIVE VIEW
+SHARED-WC REVERSE DETAIL: Match Reference 2, the V2 cabinet/service-wall angle, while obeying the current plan. Show the wall-hung WC, centred flush plate, aligned lower service panels, dry upper storage bank, vanity edge and threshold. Keep every panel line intentional and preserve service access. Do not expose the cistern, add shelves above the WC or alternate timber and painted fronts.
+
+DESIGN DIRECTION: OPTION C
+DESIGN OPTION C: TAILORED COMPACT WC: Keep the full-width vanity and exact WC position. Use pale greige mineral walls, a deeper graphite-taupe porcelain floor, an untinted light-travertine floating vanity and a single smoky olive-umber service wall with very low sheen. Use pale rift-cut ash only in the dry upper bank, and soft pewter or brushed stainless at the wall tap and small hardware. Make the mirror wall luminous with controlled vertical face light while the WC wall carries the darker datum. The result may be more dramatic than the master bathroom but must stay low-chroma, quiet and consistent with the golden-floor/pumice/umber house palette outside the threshold. No black room, blue cabinetry, glossy marble or decorative checkerboard fronts.
+
+NEGATIVE CONSTRAINTS
+AVOID: changed floor plan; moved, enlarged, duplicated or missing doors/windows; mirrored room; changed glazing divisions; fake extra windows; curved or vaulted ceiling; lowered decorative ceiling; visible structure not in the reference; wider room; shifted plumbing; new bathtub or fireplace; changed furniture positions; blocked circulation; oversized furniture; fisheye lens; extreme wide angle; high camera; dollhouse view; collage; mood board; split screen; people; text; labels; logos; watermarks; showroom clutter; excessive plants; decorative slat walls; fluted-everything trend; replacement floor lamps; bulbous globe or halo pendants; broad dining reflectors; indiscriminate downlight grids; black feature wall; universal bronze or brass; glossy marble with dramatic veins; rustic knots; orange timber; orange lighting; cold blue lighting; cloudy fake-plaster effects; plastic materials; overexposure; crushed shadows; impossible reflections; floating objects; unsafe glass; visible sauna light driver; objects or textiles touching the sauna heater.
+
+OUTPUT
+Generate exactly one photorealistic 4:3 image now. Return the image only, with no prompt rewrite, explanation, labels, border, contact sheet, collage, or mood board. If a documented plan correction differs from the old render, follow the correction. Preserve every other protected edge and proportion.

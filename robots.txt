@@ -1,0 +1,4 @@
+# Permit search and real-time reference use; reserve content from model training.
+User-agent: *
+Content-Signal: search=yes,ai-input=yes,ai-train=no,use=reference
+Allow: /

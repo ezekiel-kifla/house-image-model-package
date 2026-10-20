@@ -1,7 +1,7 @@
 {
   "title": "House image-model reference and prompt package",
   "version": 1,
-  "generated_at": "2026-10-20T16:42:48.736981+00:00",
+  "generated_at": "2026-10-20T16:48:22.603738+00:00",
   "public_base_url": "https://ezekiel-kifla.github.io/house-image-model-package",
   "public_gallery_url": "https://ezekiel-kifla.github.io/house-image-model-package/",
   "rooms": [
@@ -247,8 +247,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 11178,
-      "sha256": "25429ed4fa5b024c289aa6778da40dcf2cb668b8e746c746e063214af6dcf9ab"
+      "bytes": 11491,
+      "sha256": "ad00e2841619b1fb0d6077b10895436d82c2eeddc5ef734eb007cff74aaff2af"
     },
     {
       "path": "prompts/entrance-hall-entrance-option-a.txt",

@@ -1,7 +1,7 @@
 {
   "title": "House image-model reference and prompt package",
   "version": 1,
-  "generated_at": "2026-10-20T16:50:38.164278+00:00",
+  "generated_at": "2026-10-21T06:58:13.247339+00:00",
   "public_base_url": "https://ezekiel-kifla.github.io/house-image-model-package",
   "public_gallery_url": "https://ezekiel-kifla.github.io/house-image-model-package/",
   "rooms": [
@@ -137,8 +137,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 1352,
-      "sha256": "6a4bd5bc7219939f0e9990a51d95b26ceb30dd28e0a8fbc0454697643eeb1190"
+      "bytes": 1416,
+      "sha256": "00cb8aac4be47d05fca1c94ea27b35fd5df41a1b550ad8b8835a669c7328ab48"
     },
     {
       "path": "images/plans/entrance-hall-plan.png",
@@ -247,238 +247,238 @@
     },
     {
       "path": "index.html",
-      "bytes": 11282,
-      "sha256": "afd02cd31581395fa7a9164f5348f7cf912a0d809a9635a8be7a54eeb294acdf"
+      "bytes": 11330,
+      "sha256": "d96c8347862a664b1387b16a46ad630f7e165e2c9d11d1afd8d3978fb0787cf0"
     },
     {
       "path": "prompts/entrance-hall-entrance-option-a.txt",
-      "bytes": 7058,
-      "sha256": "b1dbdf71300da8ba96696188bef48c73bf441ddbfe770ce6fe146c0cc405f493"
+      "bytes": 8275,
+      "sha256": "f21fd2d777be9e89c059eedca05296a4307f5a9610e7031e238f02ee97bc0dd9"
     },
     {
       "path": "prompts/entrance-hall-entrance-option-b.txt",
-      "bytes": 6980,
-      "sha256": "f7ac7d693e6443045df1da37fc0d35aca43eb4353fb914fd01cb10714189e1d9"
+      "bytes": 8197,
+      "sha256": "3e8f6cf019cd773fce8cd166ad000946f3053e46c66af89ca8f5862aa97a5667"
     },
     {
       "path": "prompts/entrance-hall-entrance-option-c.txt",
-      "bytes": 7011,
-      "sha256": "9ecb8d1043548d76f851434e45d91b4e28f473b36719246833e2853536108f20"
+      "bytes": 8228,
+      "sha256": "a4fa510746f80a0632f2ae6f85ed52c97e6e6531940b0002fd26f965aef77586"
     },
     {
       "path": "prompts/entrance-hall-hall-option-a.txt",
-      "bytes": 6971,
-      "sha256": "7b7eae69aaef23ad1c4e1f998de0e103347a4f836686900953f3312f908fc645"
+      "bytes": 8188,
+      "sha256": "7e839ca24ae2a2f7e4d0a3c0b7c1e6e2fab5170c34656a3db6068cd9c850db6f"
     },
     {
       "path": "prompts/entrance-hall-hall-option-b.txt",
-      "bytes": 6893,
-      "sha256": "30f5c1246cf2fb71e48e2be44ab2a74fa72d5c680eae6d68525d2fb2d3e4a197"
+      "bytes": 8110,
+      "sha256": "4838039d3bcf9002aae996251896acb395b0aea0fe608ae6fb1d818f263e30eb"
     },
     {
       "path": "prompts/entrance-hall-hall-option-c.txt",
-      "bytes": 6924,
-      "sha256": "7c2db6b07c714d9f76a717f63a93109773601b7eea02521e3921374b7ce72376"
+      "bytes": 8141,
+      "sha256": "58dfa8303a9c0c55db4b0af5013756de646c5fe147b1d00b74fe7d41a8c083f4"
     },
     {
       "path": "prompts/living-room-primary-option-a.txt",
-      "bytes": 7356,
-      "sha256": "3d700e7db12a1dfc1368847cac32fee8a8f133ca65185b03a6a8dcd14ff3dae6"
+      "bytes": 8573,
+      "sha256": "566b11c63032f7735a2fedbfd68cac9ab7864e061c539ff6b8876de1983baa33"
     },
     {
       "path": "prompts/living-room-primary-option-b.txt",
-      "bytes": 7190,
-      "sha256": "96ff583d3ce8e10723daa1c7eb0a3f8478df9ad0028a98fbdd1577ee88fcd6f1"
+      "bytes": 8407,
+      "sha256": "2e598ae773b23d622cfb1e10dc8a8e1d20d8e1a7526deae860d18bfdf988d1df"
     },
     {
       "path": "prompts/living-room-primary-option-c.txt",
-      "bytes": 7158,
-      "sha256": "32c865765d07d913b1bd19db40808a5393c586322981f8078f530f2416091824"
+      "bytes": 8375,
+      "sha256": "b8b4bfa1b57127af5b339924c4f3ae76ee95444b9aa75ba2f5076a470cf86f49"
     },
     {
       "path": "prompts/living-room-reverse-option-a.txt",
-      "bytes": 7230,
-      "sha256": "9ca0ec6a4fb362d18be1976d65d84394c9e09c6b9557cea43c0fe6bd3be83f6a"
+      "bytes": 8447,
+      "sha256": "425afdf3588af5bf0d10b4d84dedf69424d1778deed04a53bf6682abb86051c9"
     },
     {
       "path": "prompts/living-room-reverse-option-b.txt",
-      "bytes": 7064,
-      "sha256": "1ffaa5631f5bad8acf84be2bc470325e3a21bbc1030c188e14979098311ea8b1"
+      "bytes": 8281,
+      "sha256": "c80331366550eb30d84ab275a5ca363804aa0cfe23f457aa8e8512eabcd6c86e"
     },
     {
       "path": "prompts/living-room-reverse-option-c.txt",
-      "bytes": 7032,
-      "sha256": "7db0274dcf9c3694d204248800aa1a546c18e1cdb28ef1a59e724502737d4b0c"
+      "bytes": 8249,
+      "sha256": "1a58f74e159b478085d88f87e2f26a4abea1e5e4ef10d6f36c824574182829d4"
     },
     {
       "path": "prompts/master-bathroom-detail-option-a.txt",
-      "bytes": 6891,
-      "sha256": "11b6d5e9f5cd823f18a2faa6ecaaa7d30dd85fffc9e64f518d9d463eae064ec2"
+      "bytes": 8108,
+      "sha256": "df986bc54831a45d953f3ee9b84bb6fdf645868df9722e0c91b7ebf2718ff3b3"
     },
     {
       "path": "prompts/master-bathroom-detail-option-b.txt",
-      "bytes": 6771,
-      "sha256": "db832749d79435164f56908f888152526bd0bebdd9a08e349f11a5f0e33b80b8"
+      "bytes": 7988,
+      "sha256": "3edb7ee169f778866329120d9bea9da82949aa4123a79dc173f3f2b000f4692e"
     },
     {
       "path": "prompts/master-bathroom-detail-option-c.txt",
-      "bytes": 6687,
-      "sha256": "190064f9f3c2a4461188133c81d50bcd598d09ea4e3e030dade5232e053045dc"
+      "bytes": 7904,
+      "sha256": "522f800b2e410e77d23951ca7507f85aaac2abed5064625f3bc8b6ae0d43aca2"
     },
     {
       "path": "prompts/master-bathroom-doorway-option-a.txt",
-      "bytes": 6856,
-      "sha256": "468d3b92bd8e6a7c12eb9901b16ae5b2c539ab96a3184c882030b027b92d4a4f"
+      "bytes": 8073,
+      "sha256": "3030ff053ba6810f757f0d407e8db2f02d56c320c09e014e6a4fa3a3bf051c7a"
     },
     {
       "path": "prompts/master-bathroom-doorway-option-b.txt",
-      "bytes": 6736,
-      "sha256": "a8a707c73b0f6a3921cbee215afc783e0b422eec230381af11c5bdc7197c5738"
+      "bytes": 7953,
+      "sha256": "cd326149961609e0c767247958f2c9c0012a5feb64f542b5fcd206185e778fc6"
     },
     {
       "path": "prompts/master-bathroom-doorway-option-c.txt",
-      "bytes": 6652,
-      "sha256": "8beb810e371fcaf44a136f3b675605a588c1efb8fd1b6136601dd3797d7fe0a1"
+      "bytes": 7869,
+      "sha256": "c268090c48c10c64ad65002202ffb98a8ef6912dfa196648b4cbddb89288a62d"
     },
     {
       "path": "prompts/master-bathroom-primary-option-a.txt",
-      "bytes": 6917,
-      "sha256": "dbcfa94487285d5e86eb1c4fe4f6d34a58f3e3331fcbaa7bd44ab9f044ed0ab8"
+      "bytes": 8134,
+      "sha256": "7d2f9b336b6426e7c0a63586eda97a597615cb118a19aaa1f51ef39aabb8435d"
     },
     {
       "path": "prompts/master-bathroom-primary-option-b.txt",
-      "bytes": 6797,
-      "sha256": "429beba47f461436d74dc8a019f4f119bd7a2eb9d462611128dcbe7003ab9404"
+      "bytes": 8014,
+      "sha256": "d7643278ce273fc64e6cc2705d398a8ff9f341ff6f2121f4f00d449d54598119"
     },
     {
       "path": "prompts/master-bathroom-primary-option-c.txt",
-      "bytes": 6713,
-      "sha256": "369829b21d49299ea11572007d4bcc382700f28037d1c9cb9f735c9a6db98351"
+      "bytes": 7930,
+      "sha256": "158c0de3daf450745d55595e46ebc2de43545d08b4da0420f3f99f80c9433afe"
     },
     {
       "path": "prompts/master-bedroom-gallery-option-a.txt",
-      "bytes": 6969,
-      "sha256": "d51845aefb31043a96cb085607b3bf24b4537016afd810a2ba5d6a4ef82e3231"
+      "bytes": 8186,
+      "sha256": "3b8fd1dc5915e5eaa52476ed5f86b75d93b319094e4b73b2f85d8226723f3882"
     },
     {
       "path": "prompts/master-bedroom-gallery-option-b.txt",
-      "bytes": 6869,
-      "sha256": "3e5516bc0dcaf7b5c0e0ccca0a376a0b48d5c4c60fdecf1e598546e3234dab6f"
+      "bytes": 8086,
+      "sha256": "2e2a7817b4e169bad2857f59d0f508d5366881e7dc8766c57f43ee7461603513"
     },
     {
       "path": "prompts/master-bedroom-gallery-option-c.txt",
-      "bytes": 6858,
-      "sha256": "b2ed5a6135f55999459c9b23486d2324101beed646054e9f0a789d1895d65b9d"
+      "bytes": 8075,
+      "sha256": "dcb0315a0bb076240c7af13a07abccc3591a1c0432a4153af7f8b931f170bfca"
     },
     {
       "path": "prompts/master-bedroom-primary-option-a.txt",
-      "bytes": 6829,
-      "sha256": "37225b9516537967afd7b0996acb5e2455158dc9a8b2bfe016e761ce48668125"
+      "bytes": 8046,
+      "sha256": "f109365cd1815b6da3e8941694065ef0f5998a12dce2faf045e843dc75b08088"
     },
     {
       "path": "prompts/master-bedroom-primary-option-b.txt",
-      "bytes": 6729,
-      "sha256": "e4e54f20112dc76ca1cadd43c70fb8d92ec4fd3c9951e40040786685bbaba300"
+      "bytes": 7946,
+      "sha256": "68f488aaf1f051dc7b333728ecb693098f9decb73e04a687b0facbc23b98e07b"
     },
     {
       "path": "prompts/master-bedroom-primary-option-c.txt",
-      "bytes": 6718,
-      "sha256": "13b073df9c8fb9350a2d5988c3a01f028e960a3f5177b54669e31b9be1635cf9"
+      "bytes": 7935,
+      "sha256": "03b7a03fe2b41b0119b6b540fa51c7d31fc95d5473e322d55b417b0edc0f8826"
     },
     {
       "path": "prompts/sauna-suite-doorway-option-a.txt",
-      "bytes": 7221,
-      "sha256": "6cdbe38377ad6059ca10a80262f20c7251d0e1ffcb137bcad163c62a73e8d17f"
+      "bytes": 8438,
+      "sha256": "297092fcdc505c576cf631d6ad1afc6fdf9d1749aea1b09a32fd45c8738e3504"
     },
     {
       "path": "prompts/sauna-suite-doorway-option-b.txt",
-      "bytes": 7320,
-      "sha256": "3566dc62d870e599bb85b9a30db293f4dab8d34ddff54d3beb5cf8f99f57db22"
+      "bytes": 8537,
+      "sha256": "3d85bceb3e3a62981623837d55d37d0b1f3b78b4a95b01c5d73313677b69a223"
     },
     {
       "path": "prompts/sauna-suite-doorway-option-c.txt",
-      "bytes": 7260,
-      "sha256": "116defac59fa51910783bd20e28320074b5204cbe5eaf0a84d241d58da6db4ce"
+      "bytes": 8477,
+      "sha256": "4b9848206d68fc4fed423188dae0fd60274ab0f2cdf85677f82be027a07e162b"
     },
     {
       "path": "prompts/sauna-suite-interior-option-a.txt",
-      "bytes": 7166,
-      "sha256": "9b03dfbfa0bc11ebc09200f5393112d33b0a00f743f499a1e9f4256efcaeff09"
+      "bytes": 8383,
+      "sha256": "ba0eab6b45b020a3ceeb2359bf865eb711645196c025c618f239b06298e39b88"
     },
     {
       "path": "prompts/sauna-suite-interior-option-b.txt",
-      "bytes": 7265,
-      "sha256": "7dc09ffa34bc79eea26f5b27d9fe9460cf671640818714334a2e13856e1cd10f"
+      "bytes": 8482,
+      "sha256": "89a865c6552f2d608d4bd5ec0467cdc088d9829eaa026af377ec57c0e304adc3"
     },
     {
       "path": "prompts/sauna-suite-interior-option-c.txt",
-      "bytes": 7205,
-      "sha256": "2fb6d986390e02950042899dbe643915d57cb2c1f5638bf23acc42b1ae6ad62f"
+      "bytes": 8422,
+      "sha256": "63a0274f61d79586939f3b25ce89dc5642efb67fa657bd2b8a106fe8ca59298a"
     },
     {
       "path": "prompts/sauna-suite-primary-option-a.txt",
-      "bytes": 7351,
-      "sha256": "1c99a972beb64f91a8bfb731feda73974a8a0c1253a628ed1f8f557f22ac45d8"
+      "bytes": 8568,
+      "sha256": "8ed551212bc098f0afb01207fac787821b20d023b671f7a1735758594be2bf24"
     },
     {
       "path": "prompts/sauna-suite-primary-option-b.txt",
-      "bytes": 7450,
-      "sha256": "cde1bc0d1aefbc60b389e3d23a2fb69fbb1bacdc83a568127323d270985df922"
+      "bytes": 8667,
+      "sha256": "7d18552fc1b67ac7ce2228a92ce2f7486ce1713d757c8bfd5337b8075b433931"
     },
     {
       "path": "prompts/sauna-suite-primary-option-c.txt",
-      "bytes": 7390,
-      "sha256": "abe25f883f69fb53d2b6047d2de2da22ea704a29994b4bf9f8a8f4d529875be3"
+      "bytes": 8607,
+      "sha256": "5b5eefefa165d307b03958780f946742cf8257464c34a7d48c4025cba9d8630d"
     },
     {
       "path": "prompts/shared-wc-basin-detail-option-a.txt",
-      "bytes": 6427,
-      "sha256": "7f9dc19eb75674ad0450a875f2fd82f09a85607c44c172ff28e507d3af028b9f"
+      "bytes": 7644,
+      "sha256": "2882e3b500cb007c0947b5993811b1423b3fbacb9d45509eb24bbb06d7409704"
     },
     {
       "path": "prompts/shared-wc-basin-detail-option-b.txt",
-      "bytes": 6346,
-      "sha256": "4891335cae0d5b196d9ee1496544f42fc2f1cc2052a9047177c6da477ea49e0e"
+      "bytes": 7563,
+      "sha256": "9b2736ee2e1b91f41a3950701befcbad4ce670b35e740323f9e42f96433dbace"
     },
     {
       "path": "prompts/shared-wc-basin-detail-option-c.txt",
-      "bytes": 6418,
-      "sha256": "0926844546a93af0c0ed32d011499114cad0c2b3553079bfab9238bc934d3284"
+      "bytes": 7635,
+      "sha256": "d301c4c2348c4ad4e4d60e17bf1e10f3ef1e208e4988465c43131608e57a40e5"
     },
     {
       "path": "prompts/shared-wc-primary-option-a.txt",
-      "bytes": 6662,
-      "sha256": "73c69c014550d04a5d6cf77d04331945445c6e8caede3d0132ddd1af9fe2bb85"
+      "bytes": 7879,
+      "sha256": "59a2db3b676148c0d097c110e037d90a4fca42a6844526c3dd4591f633a36929"
     },
     {
       "path": "prompts/shared-wc-primary-option-b.txt",
-      "bytes": 6581,
-      "sha256": "82d9481068024749948689e0651f61840c40ac05cb8c5d3d96a7aa746b124ec2"
+      "bytes": 7798,
+      "sha256": "93d43eb8431cb9501e806ced99cb36184d179da1c02a76c13f4622f7ad9e4698"
     },
     {
       "path": "prompts/shared-wc-primary-option-c.txt",
-      "bytes": 6653,
-      "sha256": "481d0acbda0e979e7f0f2495927d55ef03849d84c41364feb56bbe98e22a847e"
+      "bytes": 7870,
+      "sha256": "47dee2932f712d73c0fc46d42f1560ad416193a80d78f7ee1f1fca3894a49761"
     },
     {
       "path": "prompts/shared-wc-reverse-option-a.txt",
-      "bytes": 6477,
-      "sha256": "f7e15a6be0db377ea8653203b51f62b339b21bd21d70686f1cb31d17d0680902"
+      "bytes": 7694,
+      "sha256": "12643274e60e7d219ba18dc6ae48757503d63501557de8b1a7fcd665f5bda856"
     },
     {
       "path": "prompts/shared-wc-reverse-option-b.txt",
-      "bytes": 6396,
-      "sha256": "2274c21c7830a6dbbf06735a9a6f9fdf8dff1503d8cf8ba543f743afdee4d321"
+      "bytes": 7613,
+      "sha256": "664a9e43916fdc8a6bd2078d7d2c8460a36acfb7255850efe83c44158132f30c"
     },
     {
       "path": "prompts/shared-wc-reverse-option-c.txt",
-      "bytes": 6468,
-      "sha256": "d63a4e813b7f900a229fe0532810dfc81ca0e037ed9888065b7370d1ebfb75e7"
+      "bytes": 7685,
+      "sha256": "8a90a31fbd2bce0402207419d594c06b84f114f91544e08ab18903a70731a3ab"
     },
     {
       "path": "prompts.json",
-      "bytes": 331127,
-      "sha256": "c518069a84e08d1aec109191206784eb07caec3f95ed6ff199cda2897ff3ec5d"
+      "bytes": 386027,
+      "sha256": "cb7c17fe6007b1ad8720ada137751014f0814581f6a68d4819d43eda4246ae33"
     },
     {
       "path": "robots.txt",
@@ -486,5 +486,6 @@
       "sha256": "cf0e4783521d9af38788f78a0f64bdd92ede6c35a9e4f09807ce5fd68837cf24"
     }
   ],
-  "hosting": "GitHub Pages over HTTPS"
+  "hosting": "GitHub Pages over HTTPS",
+  "design_intent": "Ultra-high-end, very modern contemporary, selectively avant-garde, non-standard, beautiful, functional, and geometry-preserving."
 }

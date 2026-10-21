@@ -6,7 +6,7 @@ This package contains:
 
 - six redacted room-specific plan crops;
 - fifteen selected room-render references;
-- forty-five complete prompts, one for each view and A/B/C option;
+- forty-five complete prompts, one for each view and A/B/C option, all updated for ultra-high-end contemporary avant-garde design;
 - `prompts.json` and individual plain-text prompt files;
 - a responsive gallery with one-click prompt copying;
 - `manifest.json` with hashes and reference mappings.
